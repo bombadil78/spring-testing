@@ -1,0 +1,17 @@
+package ch.bullsoft.springtesting;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/info")
+public class InfoResource {
+
+    @RequestMapping(method = RequestMethod.GET)
+    public Info info() {
+        Info info = new Info();
+        info.setStatus("OK");
+        return info;
+    }
+}
