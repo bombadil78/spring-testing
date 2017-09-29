@@ -17,7 +17,7 @@ import static org.junit.Assert.assertNull;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest
-public class JpaTest {
+public class JpaRepositoryIT {
 
     @Autowired
     private TestEntityManager entityManager;

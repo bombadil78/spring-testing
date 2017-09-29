@@ -1,4 +1,4 @@
 package ch.bullsoft.springtesting;
 
-public class RestApiTest {
+public class SecurityIT {
 }

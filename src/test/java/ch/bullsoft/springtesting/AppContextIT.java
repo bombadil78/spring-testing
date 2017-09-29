@@ -11,7 +11,7 @@ import static org.hibernate.validator.internal.util.Contracts.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AppContextTest {
+public class AppContextIT {
 
     @MockBean
     private InfoResource infoResource;

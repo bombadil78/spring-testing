@@ -18,3 +18,8 @@ Tests are annotated with
 
 Then references to the repository under test and/or the underlying *EntityManager* is injected into the test using *@Autowired*
 
+## References
+- http://www.lucassaldanha.com/unit-and-integration-tests-in-spring-boot
+- https://spring.io/blog/2016/04/15/testing-improvements-in-spring-boot-1-4
+- http://www.baeldung.com/spring-boot-testing
+- http://www.baeldung.com/mockito-annotations
